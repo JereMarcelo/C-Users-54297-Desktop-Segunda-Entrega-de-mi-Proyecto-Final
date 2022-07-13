@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url("https://media.gettyimages.com/photos/empty-gym-picture-id1132006407?s=2048x2048");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h1 {
+    background-color: rgba(235, 184, 122, 0.927);
+    display: inline-block;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    border: solid 5px black;
+}
+
+nav {
+    background-color: rgba(235, 184, 122, 0.907);
+    text-align: center;
+    border: solid 5px black;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    list-style-type: none;
+    border: solid 3px black;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.grid-entrenamiento {
+    display: inline-block;
+    background-color: rgba(235, 184, 122, 0.679);
+    width: 50%;
+    border: solid 5px black;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-sobrenosotros {
+    display: inline-block;
+    background-color: rgba(235, 184, 122, 0.679);
+    width: 50%;
+    border: solid 5px black;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(235, 184, 122, 0.648);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 5px black;
+}
+
+
+.footerGaleria {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor {
+    width: 1100px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(235, 184, 122, 0.564);
+    border: solid 4px black;
+
+
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(235, 184, 122);
+    border: solid 4px black;
+
+    font-size: 24px;
+}
+
+footer p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: solid;
+    border: solid 2px black;
+}
+
+h5 {
+    text-align: right;
+}
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+}
+
+.contenedorHijo {
+    display: flex;
+    justify-content: right;
+}
+
+.hijo4 {
+    border: solid 2px black;
+
+}
+
+.hijo5 {
+    background-color: rgb(235, 184, 122);
+    background-position: 50px;
+}
+
+.padreFlex {
+    background-color: rgba(176, 118, 48, 0.967);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.clase1 {
+    background-color: rgba(235, 184, 122, 0.532);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-entrenamiento {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgba(235, 184, 122, 0.532);
+    height: 400px;
+    width: 90%;
+    padding: 10px;
+    grid-area: "grid-entrenamiento";
+}
+
+.grid-sobrenosotros {
+    display: grid;
+    background-color: rgba(235, 184, 122, 0.532);
+    height: 400px;
+    width: 90%;
+    padding: 10px;
+    grid-area: "grid-sobrenosotros";
+}
+
+.grid-footer1 {
+    display: grid;
+    background-color: aqua;
+    width: 100%;
+}
+
+.grid-footer2 {
+    display: grid;
+    grid-template-rows: 1px / 4px;
+    background-color: blue;
+    width: 100%;
+}
+
+.flex {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.grid-0 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "grid-entrenamiento grid-entrenamiento"
+                        "grid-sobrenosotros grid-sobrenosotros";
+    column-gap: 10px;
+    width: 90%;
+    margin: 5px;
+}
